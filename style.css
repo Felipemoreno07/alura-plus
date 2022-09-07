@@ -4,6 +4,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    --botao-muda-cor: #9b6b;
 }
 
 body {
@@ -145,6 +146,11 @@ body {
 .lista__link a:hover {
     color: var(--botao-azul);
 }
+
+.lista__link :active {
+    color: var(--botao-muda-cor)
+}
+
 
 
 
